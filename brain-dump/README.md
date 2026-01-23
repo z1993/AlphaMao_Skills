@@ -1,68 +1,78 @@
-# Brain Dump Skill 🧠
+# Brain Dump 技能 🧠
 
-An intelligent orchestrator for Obsidian that transforms chaotic user thoughts into structured notes with tasks, ideas, thoughts, and emotions.
+一个为 Obsidian 打造的智能编排器，能将用户混乱的想法转化为结构化的笔记，自动分类为任务、灵感、思考和情绪。
 
-## 🌟 Features
+## 🌟 功能特点
 
-- **Brain to Vault**: Instantly captures stream-of-consciousness input.
-- **Auto-Sorting**: Automatically categorizes content into Actions, Ideas, Thoughts, and Emotions.
-- **Obsidian Native**: Generates beautifully formatted Markdown files directly in your vault.
-- **Smart Dashboard**: Automatically creates and updates a "Brain Dump Dashboard" to visualize your mental state.
+- **从大脑到仓库**：即时捕捉意识流输入。
+- **自动分类**：自动将内容归类为“行动”、“灵感”、“思考”和“情绪”。
+- **Obsidian 原生**：直接在您的仓库中生成格式精美的 Markdown 文件。
+- **智能仪表盘**：自动创建并更新“Brain Dump 仪表盘”，可视化您的思维状态。
 
-## 🚀 Installation & Setup
+## ⚠️ 前置要求
 
-1. **Install the Skill**:
-   Clone this repository into your skill directory.
+在使用此技能之前，您**必须**先安装 **Obsidian Skills**：
+[https://github.com/kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)
 
-2. **Obsidian Configuration (Critical Step)**:
-   This skill works best with the **Dataview** plugin in Obsidian to power the Dashboard.
+请确保该基础环境已正确配置，否则本技能可能无法正常工作。
+
+## 🚀 安装与设置
+
+1. **安装技能**：
+   将此仓库克隆到您的技能目录中。
+
+2. **Obsidian 配置（关键步骤）**：
+   本技能配合 Obsidian 的 **Dataview** 插件使用效果最佳，用于驱动仪表盘。
    
-   - **Install Dataview**: Open Obsidian > Settings > Community Plugins > Browse > Search "Dataview" > Install & Enable.
-   - **File Path**: The skill is configured to save files to: `[Insert Your Obsidian Vault Path Here]\Brain Dumps\`. 
-     > **Note**: You MUST edit `SKILL.md` to match your actual Obsidian vault path.
+   - **安装 Dataview**：打开 Obsidian > 设置 > 第三方插件 > 浏览 > 搜索 "Dataview" > 安装并启用。
+   - **文件路径**：技能默认配置保存路径为：`[请在此处填入您的Obsidian仓库路径]\Brain Dumps\`。 
+     > **注意**：您**必须**编辑 `SKILL.md`，将路经修改为您实际的 Obsidian 仓库路径。
 
-3. **Dashboard Initialization**:
-   The first time you run the skill, it will automatically create a `Brain Dump Dashboard.md` file in the target directory. This dashboard uses Dataview queries to show your recent tasks, ideas, and emotional trends.
+3. **仪表盘初始化**：
+   首次运行技能时，它会自动在目标目录中创建一个 `Brain Dump Dashboard.md` 文件。该仪表盘使用 Dataview 查询来展示您最近的任务、想法和情绪趋势。
 
-## 📖 Usage
+## 📖 使用方法
 
-Simply tell the agent:
-> "Brain dump: I need to buy milk, I have an idea for a new app, and I'm feeling great today."
+只需告诉 Agent：
+> “Brain dump：我得去买牛奶，我对新 App 有个点子，今天感觉很棒。”
 
-The agent will:
-1. Parse your input.
-2. Sort it into categories (Actions, Ideas, Thoughts, Emotions).
-3. Create a new daily note (e.g., `2026-01-23_BrainDump_Milk_App.md`).
-4. Update your Dashboard view.
+Agent 将会：
+1. 解析您的输入。
+2. 将其分类（行动、灵感、思考、情绪）。
+3. 创建一个新的每日笔记（例如：`2026-01-23_BrainDump_Milk_App.md`）。
+4. 更新您的仪表盘视图。
 
-## 📂 Output Structure
+## 📂 输出结构
 
-Each dump creates a file with this structure:
+每次 Dump 都会创建如下结构的文件：
 
 ```markdown
 # Brain Dump - 2026-01-23
 
 ## ✅ Actions
-- [ ] Buy milk #todo
+- [ ] 买牛奶 #todo
 
 ## 💡 Ideas
-- New app concept #idea
+- 新 App 的概念 #idea
 
 ## 💭 Thoughts
-- Reflection on the day #thought
+- 对今天的反思 #thought
 
 ## ❤️ Emotions
-- Feeling great #emotion
+- 感觉很棒 #emotion
 ```
 
-## 🙏 Acknowledgements
+## 🙏 致谢
 
-Special thanks to the **Obsidian Skill** community and the **Obsidian** team for building such a powerful knowledge base tool. This skill is built to extend the capabilities of Obsidian as a second brain.
+特别感谢 **Obsidian Skills** 项目为我们提供了强大的基础：
+[https://github.com/kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)
 
-## 🤝 Contributing
+同时也感谢 **Obsidian** 团队打造了如此强大的知识库工具。
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🤝 贡献
 
-## 📄 License
+欢迎提交贡献！请随意提交 Pull Request。
+
+## 📄 许可证
 
 MIT License
