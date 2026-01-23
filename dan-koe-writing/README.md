@@ -1,55 +1,50 @@
-# Dan Koe Writing Method (写作方法论)
+# Dan Koe 写作方法论 ✍️
 
-> 基于 Dan Koe 的写作体系，指导你从选题到发布的完整写作流程。适用于创作社交媒体帖子、Newsletter、长文章。
+> 基于 Dan Koe 的写作体系，指导你从选题到发布的完整写作流程。
 
-## ✨ Features
+## ✨ 功能特点
 
-- **APAG 框架**: Attention, Perspective, Advantage, Gamify 的结构化写作
-- **Hooks 公式**: 4 种经过验证的开头钩子公式
-- **选题策略**: 一人利基 (One-Person Niche) 和 愿景/反愿景方法
-- **30分钟清单**: 快速从灵感到成文的标准作业程序 (SOP)
+- **APAG 框架**：Attention → Perspective → Advantage → Gamify 完整写作结构
+- **钩子公式**：4 种经过验证的开头写法
+- **30 分钟写作清单**：快速产出高质量内容
+- **一人利基策略**：找到独特定位
 
-## 📦 Installation
+## ⚠️ 前置要求
 
-```bash
-# Clone the repository
-git clone https://github.com/z1993/AlphaMao_Skills.git
+无特殊前置要求。
 
-# Copy the skill directory
-cp -r AlphaMao_Skills/dan-koe-writing ~/.gemini/antigravity/skills/
-```
+## 🚀 使用方法
 
-## 🚀 Quick Start
+触发技能：
+> "帮我用 Dan Koe 方法写一篇关于 [主题] 的文章"
 
-1. **确定话题**: 找到一个你想解决的"旧版自己"的问题
-2. **启动**: 告诉 AI "用 Dan Koe 的方法帮我写一篇关于 [主题] 的文章"
-3. **结构化**: AI 会自动应用 APAG 框架进行生成
-4. **优化**: 根据提供的检查清单进行润色
+或直接使用触发词：
+- `/dan-koe-writing`
+- `APAG 框架`
+- `写作方法论`
 
-## 🎯 Trigger Words
+## 📖 核心框架
 
-| Language | Trigger Phrases |
-|----------|-----------------|
-| 中文 | /dan-koe-writing, Dan Koe 写作, APAG 框架, 写作方法论 |
+### APAG 写作结构
 
-## 📂 Structure
+| 阶段 | 名称 | 内容 |
+|------|------|------|
+| **A** | Attention | 钩子/大想法，用痛点开场 |
+| **P** | Perspective | 树立敌人：描述大众的错误观点 |
+| **A** | Advantage | 提出新视角/解决方案 |
+| **G** | Gamify | 提供步骤/挑战，像游戏任务一样清晰 |
 
-```
-dan-koe-writing/
-├── SKILL.md          # Main skill instructions
-├── references/       # Additional documentation
-└── assets/           # Templates and resources
-```
+### 钩子公式
 
-## 🙏 Acknowledgements
+1. **大问题 + 负面后果**
+2. **大想法 + 预期打破**
+3. **If/Then 条件句**
+4. **残酷真相**
 
-- **[Dan Koe](https://thedankoe.com/)**: This skill is heavily inspired by his writing philosophy and methodology. Check out his work for more insights on the creator economy.
-- **[note-meta-skill](https://github.com/z1993/AlphaMao_Skills/tree/main/note-meta-skill)**: This skill structure was generated using the Note Meta Skill extractor.
+## 🙏 致谢
 
-## 📄 License
+本技能基于 [Dan Koe](https://thedankoe.com/) 的写作方法论整理。
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📄 许可证
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests.
+MIT License
