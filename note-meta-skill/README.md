@@ -66,6 +66,10 @@ note-meta-skill/
 └── assets/           # Templates and resources
 ```
 
+## 🙏 Acknowledgements
+
+- Special thanks to **[notebooklm-py](https://pypi.org/project/notebooklm-py/)** for providing the essential Python interface to NotebookLM.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
