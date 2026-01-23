@@ -1,2 +1,2 @@
 # AlphaMao_Skills
-My Antigravity Skills Collection
+Agent Skills Created by Alpha_Mao
