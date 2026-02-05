@@ -149,6 +149,17 @@ stanford-vibe-coding-course/
 
 MIT License
 
+## 致谢
+
+本项目基于斯坦福大学 CS146S 课程的公开材料构建。感谢：
+
+- **斯坦福大学 CS146S 课程团队** — 提供了系统化的 AI 开发课程框架
+- **Mihail Eric** — 课程设计者，开放了高质量的学习资源
+- **各阅读材料原作者** — 来自 Anthropic、Warp、OWASP 等组织的技术专家
+- **Model Context Protocol 团队** — MCP 协议文档和示例
+
+这是一个学习辅助工具，所有原始内容的版权归原作者所有。
+
 ## 相关链接
 
 - [CS146S 官方课程](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=CS%20146S)
