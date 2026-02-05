@@ -1,0 +1,217 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": -200,
+      "width": 400,
+      "height": 100,
+      "text": "# CS146S: The Modern Software Developer\n\n斯坦福AI软件开发课程学习地图"
+    },
+    {
+      "id": "week1",
+      "type": "text",
+      "x": -600,
+      "y": 0,
+      "width": 250,
+      "height": 150,
+      "color": "1",
+      "text": "## Week 1 ⏳\n### LLM与Prompt\n\n- [ ] 5 Readings\n- [ ] 2 Slides\n- [ ] Assignment\n\n[[CS146S/notes/week1/]]"
+    },
+    {
+      "id": "week2",
+      "type": "text",
+      "x": -300,
+      "y": 0,
+      "width": 250,
+      "height": 150,
+      "color": "1",
+      "text": "## Week 2 ⏳\n### Agent架构(MCP)\n\n- [ ] 6 Readings\n- [ ] 2 Slides\n- [ ] Assignment\n\n[[CS146S/notes/week2/]]"
+    },
+    {
+      "id": "week3",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 250,
+      "height": 150,
+      "color": "1",
+      "text": "## Week 3 ⏳\n### AI IDE\n\n- [ ] 6 Readings\n- [ ] 2 Slides\n- [ ] Assignment\n\n[[CS146S/notes/week3/]]"
+    },
+    {
+      "id": "week4",
+      "type": "text",
+      "x": 300,
+      "y": 0,
+      "width": 250,
+      "height": 150,
+      "color": "1",
+      "text": "## Week 4 ⏳\n### Claude Code\n\n- [ ] 6 Readings\n- [ ] 2 Slides\n- [ ] Assignment\n\n[[CS146S/notes/week4/]]"
+    },
+    {
+      "id": "week5",
+      "type": "text",
+      "x": 600,
+      "y": 0,
+      "width": 250,
+      "height": 150,
+      "color": "1",
+      "text": "## Week 5 ⏳\n### 现代终端\n\n- [ ] 3 Readings\n- [ ] 2 Slides\n- [ ] Assignment\n\n[[CS146S/notes/week5/]]"
+    },
+    {
+      "id": "week6",
+      "type": "text",
+      "x": -600,
+      "y": 200,
+      "width": 250,
+      "height": 150,
+      "color": "4",
+      "text": "## Week 6 ⏳\n### 测试与安全 🔒\n\n- [ ] 6 Readings\n- [ ] 2 Slides\n- [ ] Assignment\n\n[[CS146S/notes/week6/]]"
+    },
+    {
+      "id": "week7",
+      "type": "text",
+      "x": -300,
+      "y": 200,
+      "width": 250,
+      "height": 150,
+      "color": "1",
+      "text": "## Week 7 ⏳\n### 代码审查\n\n- [ ] 6 Readings\n- [ ] 2 Slides\n- [ ] Assignment\n\n[[CS146S/notes/week7/]]"
+    },
+    {
+      "id": "week8",
+      "type": "text",
+      "x": 0,
+      "y": 200,
+      "width": 250,
+      "height": 150,
+      "color": "1",
+      "text": "## Week 8 ⏳\n### UI构建\n\n- [ ] 2 Slides\n- [ ] Assignment\n\n[[CS146S/notes/week8/]]"
+    },
+    {
+      "id": "week9",
+      "type": "text",
+      "x": 300,
+      "y": 200,
+      "width": 250,
+      "height": 150,
+      "color": "1",
+      "text": "## Week 9 ⏳\n### 部署运维\n\n- [ ] 6 Readings\n- [ ] 2 Slides\n\n[[CS146S/notes/week9/]]"
+    },
+    {
+      "id": "week10",
+      "type": "text",
+      "x": 600,
+      "y": 200,
+      "width": 250,
+      "height": 150,
+      "color": "6",
+      "text": "## Week 10 ⏳\n### 未来展望 🔮\n\n- [ ] 2 Slides\n\n[[CS146S/notes/week10/]]"
+    },
+    {
+      "id": "vibe-path",
+      "type": "text",
+      "x": -600,
+      "y": 450,
+      "width": 400,
+      "height": 120,
+      "color": "5",
+      "text": "## 🎯 Vibe Coder 推荐路径\n\nWeek 1 → Week 2 → Week 4 → Week 3 → Week 6 → 其他\n\n先打LLM基础，理解Agent架构，再深入应用"
+    },
+    {
+      "id": "progress-link",
+      "type": "text",
+      "x": 0,
+      "y": 450,
+      "width": 300,
+      "height": 80,
+      "color": "3",
+      "text": "## 📊 进度追踪\n\n[[CS146S/progress]]"
+    },
+    {
+      "id": "flashcards-link",
+      "type": "text",
+      "x": 350,
+      "y": 450,
+      "width": 300,
+      "height": 80,
+      "color": "2",
+      "text": "## 🃏 复习卡片\n\n[[CS146S/flashcards/]]"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1-2",
+      "fromNode": "week1",
+      "fromSide": "right",
+      "toNode": "week2",
+      "toSide": "left"
+    },
+    {
+      "id": "e2-3",
+      "fromNode": "week2",
+      "fromSide": "right",
+      "toNode": "week3",
+      "toSide": "left"
+    },
+    {
+      "id": "e3-4",
+      "fromNode": "week3",
+      "fromSide": "right",
+      "toNode": "week4",
+      "toSide": "left"
+    },
+    {
+      "id": "e4-5",
+      "fromNode": "week4",
+      "fromSide": "right",
+      "toNode": "week5",
+      "toSide": "left"
+    },
+    {
+      "id": "e6-7",
+      "fromNode": "week6",
+      "fromSide": "right",
+      "toNode": "week7",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-8",
+      "fromNode": "week7",
+      "fromSide": "right",
+      "toNode": "week8",
+      "toSide": "left"
+    },
+    {
+      "id": "e8-9",
+      "fromNode": "week8",
+      "fromSide": "right",
+      "toNode": "week9",
+      "toSide": "left"
+    },
+    {
+      "id": "e9-10",
+      "fromNode": "week9",
+      "fromSide": "right",
+      "toNode": "week10",
+      "toSide": "left"
+    },
+    {
+      "id": "e5-6",
+      "fromNode": "week5",
+      "fromSide": "bottom",
+      "toNode": "week6",
+      "toSide": "top"
+    },
+    {
+      "id": "e2-4-vibe",
+      "fromNode": "week2",
+      "fromSide": "bottom",
+      "toNode": "week4",
+      "toSide": "top",
+      "color": "5",
+      "label": "Vibe路径"
+    }
+  ]
+}
