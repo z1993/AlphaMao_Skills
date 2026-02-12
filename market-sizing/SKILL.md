@@ -1,7 +1,7 @@
 ---
 name: market-sizing
 description: 市场规模测算工具 (TAM/SAM/SOM)。适用于用户提到「市场规模」「market size」「TAM」「SAM」「SOM」或需要估算目标市场大小时使用。
-version: 2.0.0
+version: 2.0.1
 ---
 
 # Market Sizing Skill V2

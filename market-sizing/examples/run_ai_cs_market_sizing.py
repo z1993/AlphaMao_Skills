@@ -265,7 +265,7 @@ def run_case():
     )
 
     # Generate all formats
-    output_dir = Path("C:/Users/lenovo/.gemini/antigravity/brain/59efaa1b-7c17-42c5-9d8b-32064674f96e/output_v4")
+    output_dir = Path(__file__).parent.parent / "output_showcase"
     gen = ReportGenerator()
     results = gen.generate(data, output_dir, formats=["md", "html", "xlsx"])
 
